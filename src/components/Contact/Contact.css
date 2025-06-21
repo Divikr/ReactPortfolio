@@ -78,3 +78,22 @@ textarea{
     }
 
 }
+.button {
+  background-color: #ffcc00;        
+  color: #000;                      
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #ffd633;         
+  transform: translateY(-2px);       
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
