@@ -7,6 +7,8 @@ import project from "../assets/projects/study.png";
 import lift from "../assets/projects/weather.png";
 import krypto from "../assets/projects/touch.png";
 import kickstart from "../assets/projects/revgear.png";
+import olx from "../assets/projects/olx.png";
+import netflix from "../assets/projects/netflix.png";
 
 const Projects = () => {
   return (
@@ -62,6 +64,28 @@ const Projects = () => {
               description="I developed a digital invitation platform using React.js, designed to create and share event invitations online. The app allows users to view event details and RSVP with a simple and interactive interface. It features responsive design, real-time input handling, and state management using React hooks. This project demonstrates my ability to build user-friendly, dynamic web applications that serve a real-world purpose such as event management and communication."
               ghLink="https://github.com/Divikr/Touch_evento"
               demoLink="https://touch-evento.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflix}
+              isBlog={false}
+              title="Netflix Clone"
+              description="A fully functional and responsive Netflix Clone built using React and Firebase. It features user authentication with Firebase Auth, movie data fetched from the TMDB API, real-time database support, and clean UI components. This project showcases my proficiency in frontend development, API integration, and backend-as-a-service  using Firebase to manage authentication and data."
+              ghLink="https://github.com/Divikr/Netflix-clone"
+             
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={olx}
+              isBlog={false}
+              title="OlX Clone"
+              description="A responsive OLX Clone developed using React and Firebase, replicating the core features of a classified marketplace. It includes user authentication with Firebase Auth, the ability to post and browse listings, real-time data storage with Firestore, and a clean, mobile-first UI. This project demonstrates full-stack development skills using modern frontend technologies and backend-as-a-service architecture."
+              ghLink="https://github.com/Divikr/olx-clone"
+             
             />
           </Col>
 
