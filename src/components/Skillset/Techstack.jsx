@@ -13,7 +13,9 @@ import {
   SiRedux,
   SiMongodb,
   SiHtml5,
-  SiExpress
+  SiExpress,
+  SiBootstrap,
+  SiCss3
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -21,6 +23,12 @@ const Techstack = () => {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
+      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
+      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
