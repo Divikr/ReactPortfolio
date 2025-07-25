@@ -11,22 +11,42 @@ import {
 const Toolstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
-      </Col>
-    </Row>
+  <Col xs={6} md={3} className="tech-icons-col">
+    <div className="tech-icons">
+      <SiVisualstudiocode />
+    </div>
+    <div className="tech-label">VS Code</div>
+  </Col>
+
+  <Col xs={6} md={3} className="tech-icons-col">
+    <div className="tech-icons">
+      <SiPostman />
+    </div>
+    <div className="tech-label">Postman</div>
+  </Col>
+
+  <Col xs={6} md={3} className="tech-icons-col">
+    <div className="tech-icons">
+      <SiVercel />
+    </div>
+    <div className="tech-label">Vercel</div>
+  </Col>
+
+  <Col xs={6} md={3} className="tech-icons-col">
+    <div className="tech-icons">
+      <SiGithub />
+    </div>
+    <div className="tech-label">GitHub</div>
+  </Col>
+
+  <Col xs={6} md={3} className="tech-icons-col">
+    <div className="tech-icons">
+      <SiFigma />
+    </div>
+    <div className="tech-label">Figma</div>
+  </Col>
+</Row>
+
   );
 }
 

@@ -465,37 +465,55 @@ html {
     background-image: var(--section-background-color) !important;
     color: white !important;
   }
-  
+ .tech-icons-col {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px; /* Extra bottom space */
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  padding: 25px !important;
+  min-width: 140px !important;  /* Wider icons */
+  max-width: 160px !important;
+  margin: 0 auto !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgb(89, 0, 190) !important;
+  border-radius: 5px !important;
+  box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
+  display: inline-block !important;
+  transition: all 0.4s ease 0s !important;
+  text-align: center !important;
+  background-color: rgba(255, 255, 255, 0.05); /* Optional visual lift */
+}
+
+.tech-icons:hover {
+  transform: scale(1.08) !important;
+  border: 2.2px solid rgba(117, 0, 250, 1) !important;
+}
+
+.tech-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  margin-top: 10px;
+  display: block;
+}
+
+@media (max-width: 767px) {
   .tech-icons {
-    font-size: 4.5em !important;
-    margin: 15px !important;
-    padding: 10px !important;
-    opacity: 0.93 !important;
-    border: 1.7px solid rgb(89, 0, 190) !important;
-    vertical-align: middle !important;
-    text-align: center !important;
-    border-radius: 5px !important;
-    display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
-    overflow: hidden !important;
-    transition: all 0.4s ease 0s !important;
-  }
-  
-  @media (max-width: 767px) {
-    .tech-icons {
-      margin: 10px !important;
-    }
-  }
-  
-  .tech-icons:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 2.2px solid rgba(117, 0, 250, 1) !important;
-  }
-  .tech-icon-images {
+    min-width: 120px !important;
+    max-width: 140px !important;
+    margin: 10px auto !important;
     padding: 20px !important;
-    line-height: 1.6 !important;
   }
+
+  .tech-icons-col {
+    margin-bottom: 30px;
+  }
+}
+
+
   
   .quote-card-view {
     border: none !important;
@@ -764,3 +782,10 @@ html {
   .fork-btn-inner::after {
     display: none !important;
   }
+  .project-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 60px; 
+}

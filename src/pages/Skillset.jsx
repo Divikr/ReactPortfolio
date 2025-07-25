@@ -15,6 +15,7 @@ const Skillset = () => {
         <h1 className="project-heading">
           Professional Skillset 
         </h1>
+        
 
         <Techstack />
 
