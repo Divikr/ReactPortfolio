@@ -9,6 +9,7 @@ import krypto from "../assets/projects/touch.png";
 import kickstart from "../assets/projects/revgear.png";
 import olx from "../assets/projects/olx.png";
 import netflix from "../assets/projects/netflix.png";
+import budget from "../assets/projects/budget.png"
 
 const Projects = () => {
   return (
@@ -56,6 +57,18 @@ const Projects = () => {
               demoLink="https://touch-evento.onrender.com/"
             />
           </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={budget}
+              isBlog={false}
+              title="Budget Plan"
+              description="I developed a Budget Plan App using React to help users manage and track their personal finances with ease. The app enables users to add, edit, and delete income and expense records, categorize transactions, and instantly view their updated balance. It also provides a clear visual breakdown of spending and savings, ensuring better financial insights.I also ensured the app is responsive and user-friendly, offering a clean interface that works seamlessly across devices."
+              ghLink="https://github.com/Divikr/Budget"
+               demoLink="https://budgetplan-khra.onrender.com"
+            />
+          </Col>
+
             <Col md={4} className="project-card">
             <ProjectCard
               imgPath={lift}
