@@ -22,17 +22,7 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={lift}
-              isBlog={false}
-              title="Weather-App"
-              description="A responsive weather application built with React that allows users to search for real-time weather data across locations worldwide. It fetches information such as temperature, humidity, wind speed, and weather conditions from a public API and displays it in a clean, user-friendly interface. The app also features dynamic background changes based on the weather, providing an interactive and visually appealing experience."
-              ghLink="https://github.com/Divikr/weatherApp-react"
-               demoLink="https://weatherapp-react-jmfj.onrender.com/"
-            />
-          </Col>
-
+        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={project}
@@ -66,6 +56,17 @@ const Projects = () => {
               demoLink="https://touch-evento.onrender.com/"
             />
           </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lift}
+              isBlog={false}
+              title="Weather-App"
+              description="A responsive weather application built with React that allows users to search for real-time weather data across locations worldwide. It fetches information such as temperature, humidity, wind speed, and weather conditions from a public API and displays it in a clean, user-friendly interface. The app also features dynamic background changes based on the weather, providing an interactive and visually appealing experience."
+              ghLink="https://github.com/Divikr/weatherApp-react"
+               demoLink="https://weatherapp-react-jmfj.onrender.com/"
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
